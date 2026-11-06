@@ -1,0 +1,15 @@
+name: Nagroda
+version: 1.0.0
+main: pl.nagroda.NagrodaPlugin
+api-version: "1.21"
+libraries:
+  - net.dv8tion:JDA:5.2.1
+description: GUI z nagrodami za Discord, TikTok i YouTube
+commands:
+  nagroda:
+    description: Otwiera menu nagród
+    usage: /nagroda
+permissions:
+  nagroda.admin:
+    description: Komendy administracyjne
+    default: op
